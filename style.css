@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(200, 227, 218);
+}
+
+#voldomort{
+
+
+display: flex;
+flex-direction: column;
+    text-align: center;
+}
+
+
+ 
+ #outputDiv{
+border: 2px solid red;
+width: 90%;
+height: 50%;
+background-color: rgb(1, 54, 1);
+color: pink;
+ }
+
+
+ #main-body{
+    
+
+ }
+
+
+ #textInput{
+width: 60%  ;
+    padding: 4px;
+    text-align: center;
+
+ }
+

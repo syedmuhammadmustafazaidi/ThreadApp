@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="voldomort"> 
+    <div  > 
+    <h1 ><button id="refresh-login-p" onclick="window.location.reload(); " > <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/threads-app-icon.png"  width="110px" height="100px" alt=""></button> </h1>
+   
+   
+    <h1>My Profile</h1>
+    <div  id="mainbox">
+
+
+    <h1>Sign up</h1>
+
+    <input type="email" name="" id="email" placeholder="example@gmail.com" >
+    <input type="password" name="" id="password" placeholder="Password">
+    <button id="btn" >Sign Up</button>
+
+    <p>Already have an account?</p>
+    <a href="" id="login-link" >Log In</a>
+</div>
+
+
+ 
+    </div>
+ 
+    <div id="l-main" >
+
+        <h1>Log In </h1>
+        <input type="email" name="" id="l-email" placeholder="write email">
+        <input type="password" name="" id="l-pass" placeholder="write password">
+        <button  id="btn-l-in">Log In</button>
+    
+        <p>Want to Register ? </p>
+    <a href="" >Sign Up</a> 
+      </div>
+     
+    
+</div>
+
+
+
+
+
+
+     <div id="main-body"> 
+    <label for="textInput">MY THREAD</label>
+    <input type="text" id="textInput" placeholder="Enter thread here...">
+
+    <button type="button" id="displayButton">Enter</button>
+
+    <div id="outputDiv"></div>
+
+    </div>
+    <script>
+         
+
+        const displayButton = document.getElementById('displayButton');
+        const textInput = document.getElementById('textInput');
+        const outputDiv = document.getElementById('outputDiv');
+
+        displayButton.addEventListener('click', function() {
+            // Get the content of the input
+            const inputContent = textInput.value;
+
+            // Set the input content to the div
+            outputDiv.textContent = inputContent;
+            if(textInput.value.length === 0)
+            {
+                alert("Input is empty  ")
+            }
+
+             else{
+    console.log("Response Submitted")
+}
+        });
+    </script> 
+
+
+<script  type="module" src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
